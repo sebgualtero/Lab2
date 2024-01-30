@@ -99,7 +99,7 @@ namespace Lab2
                     salariedEmployee += 1;
                     if ((employee.GetPay() * 4) < lowestSalary)
                     {
-                        lowestSalary = employee.GetPay() * 4;
+                        lowestSalary = employee.GetPay() * 4 * 12;
                         lowestSalaryName = People.IndexOf(employee);
                     }
                 }

@@ -26,7 +26,7 @@ namespace Lab2
 
         public override double GetPay()
         {
-            return Salary/4;
+            return ((Salary/12)/4);
         }
 
         public override string ToString()
